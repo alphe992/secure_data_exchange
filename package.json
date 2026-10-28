@@ -1,0 +1,31 @@
+{
+  "name": "secure-data-exchange",
+  "version": "1.0.0",
+  "description": "Secure Data Exchange - Enterprise Cryptographic File Sharing Platform with AES-256-GCM, RBAC, and MongoDB",
+  "main": "server/server.js",
+  "scripts": {
+    "dev": "node dev.js",
+    "start": "node dev.js",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
+    "test": "npm test --prefix server"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "jwt",
+    "rbac",
+    "aes-256-gcm",
+    "sha-256",
+    "security",
+    "college-project"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
